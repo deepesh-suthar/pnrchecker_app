@@ -1,16 +1,33 @@
-# pnrchecker_app
+# PNRChecker App
 
-PNR Status Checker App using Flutter
+A simple and fast **Indian Railway PNR Status Checker** built using **Flutter**, with support for showing full PNR details in a clean UI and **generating PDF tickets** — no captcha required.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+- 🔍 Check real-time PNR status  
+- 📄 Generate PDF ticket from PNR data  
+- 📤 Share or download generated PDF  
+- 🎨 Clean AMOLED-friendly UI  
+- 🌐 Works with your deployed Spring Boot backend  
+- ⚡ Fast and simple — only requires PNR number  
+- 📱 Android-ready (APK build supported)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📚 Tech Stack
+
+**Frontend:** Flutter (Dart)  
+**Backend:** Spring Boot (Java) — deployed on Railway.com  
+**PDF:** `pdf` + `printing` package  
+**State Management:** setState() (simple)
+
+---
+
+## 🖥️ Setup Instructions
+
+### 1️⃣ Clone this repo
+```bash
+git clone https://github.com/deepesh-suthar/pnrchecker_app.git
+cd pnrchecker_app
